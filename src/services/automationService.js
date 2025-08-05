@@ -1,6 +1,6 @@
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-domain.vercel.app/api' 
-  : 'http://localhost:3000/api';
+  ? 'https://work-flow-backend.onrender.com/api' 
+  : 'http://localhost:10000/api';
 
 class AutomationService {
   constructor() {
